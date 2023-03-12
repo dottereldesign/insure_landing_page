@@ -101,3 +101,53 @@ select {
   font-size: inherit;
   font-weight: inherit;
 }
+
+/* header */
+
+/* main */
+main {
+  background-color: var(--clr-primary-100);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+  font-size: var(--fs-900);
+  font-weight: var(--fw-regular);
+  font-family: var(--ff-primary-100);
+  line-height: 1.1;
+}
+
+.main_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 48px 16px 96px 16px;
+}
+
+main p {
+  color: white;
+  font-size: var(--fs-500);
+  font-weight: var(--fw-regular);
+  font-family: var(--ff-primary-200);
+  margin-top: 16px;
+}
+
+main a {
+  color: white;
+  margin-top: 32px;
+  text-decoration: none;
+}
+
+main a p {
+  font-size: var(--fs-500);
+  font-weight: var(--fw-regular);
+  font-family: var(--ff-primary-200);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border: 1px solid white;
+  display: inline-block;
+  padding: 6px 20px;
+}
